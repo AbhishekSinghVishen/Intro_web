@@ -31,7 +31,7 @@ const Gallery = () => {
   ];
 
   return (
-    <div className='flex flex-col items-center mt-8' >
+    <div className='flex flex-col items-center mt-8 mx-2' >
         <h1 className='lg:text-3xl text-2xl font-extrabold mt-10 text-gray-800'>Gallery</h1>
         <div className='w-10 border-b-2 border-green-400 rounded-md mt-1 mb-4'></div>
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
