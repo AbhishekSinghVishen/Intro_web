@@ -37,8 +37,8 @@ const Md = () => {
                 className='mx-6 text-lg text-justify mt-6 text-gray-700 leading-relaxed' >{HERO_CONTENT}</motion.p>
             </div>
         </div>
-        <div className='w-full  lg:w-1/2 lg:p-8 lg:mt-12'>
-            <div className='flex w-full h-[60vh]  justify-center'>
+        <div className='w-full h-[5%] p-4 lg:w-1/2 lg:p-8 lg:mt-16'>
+            <div className='flex w-full h-full  justify-center'>
                 <motion.img 
                 initial={{x:100, opacity:0}} 
                 animate={{x:0, opacity:1}}

@@ -25,8 +25,8 @@ export const ContactUs = () => {
   };
 
   return (
-    
-    <form ref={form} onSubmit={sendEmail} className="w-full lg:w-1/2 mx-auto mt-6  border-[1px] border-zinc-500 rounded-lg bg-zinc-100 p-4 ">
+    <div className='mx-4'> 
+      <form ref={form} onSubmit={sendEmail} className="w-full  lg:w-1/2 lg:mx-auto  mt-6   border-[1px] border-zinc-500 rounded-lg bg-zinc-100 p-4 ">
     <div className="mb-4">
       <label htmlFor="to_name" className="block text-sm font-medium text-gray-700">
         Name
@@ -51,6 +51,8 @@ export const ContactUs = () => {
       </button>
     </div>
   </form>
+    </div>
+    
   );
 };
 
